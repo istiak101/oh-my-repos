@@ -1,0 +1,6 @@
+[mongodb-org-5.0]
+name=MongoDB Repository for RHEL $releasever - $basearch
+baseurl=https://repo.mongodb.org/yum/redhat/$releasever/mongodb-org/5.0/$basearch/
+gpgkey=https://www.mongodb.org/static/pgp/server-5.0.asc
+gpgcheck=1
+enabled=1

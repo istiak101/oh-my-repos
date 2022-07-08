@@ -1,0 +1,20 @@
+[litespeed]
+name=LiteSpeedTech Repository for RHEL $releasever - $basearch
+baseurl=https://rpms.litespeedtech.com/centos/$releasever/$basearch/
+gpgcheck=1
+gpgkey=https://rpms.litespeedtech.com/centos/RPM-GPG-KEY-litespeed
+enabled=1
+
+[litespeed-update]
+name=LiteSpeedTech Update Repository for RHEL $releasever - $basearch
+baseurl=https://rpms.litespeedtech.com/centos/$releasever/update/$basearch/
+gpgcheck=1
+gpgkey=https://rpms.litespeedtech.com/centos/RPM-GPG-KEY-litespeed
+enabled=1
+
+[litespeed-edge]
+name=LiteSpeedTech Edge Repository for RHEL $releasever - $basearch
+baseurl=https://rpms.litespeedtech.com/edge/centos/$releasever/$basearch/
+gpgcheck=1
+gpgkey=https://rpms.litespeedtech.com/centos/RPM-GPG-KEY-litespeed
+enabled=0
